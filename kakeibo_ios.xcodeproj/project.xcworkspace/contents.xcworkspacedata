@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:kakeibo-ios.xcodeproj">
+      location = "self:/Users/yoshinori/src/github.com/y-jono/kakeibo_ios/kakeibo_ios.xcodeproj">
    </FileRef>
 </Workspace>

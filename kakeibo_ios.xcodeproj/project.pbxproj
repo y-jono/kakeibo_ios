@@ -38,14 +38,14 @@
 			containerPortal = 8B7336151DD6FED3001C9401 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8B73361C1DD6FED3001C9401;
-			remoteInfo = "kakeibo_ios";
+			remoteInfo = kakeibo_ios;
 		};
 		8B7336401DD6FED3001C9401 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8B7336151DD6FED3001C9401 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8B73361C1DD6FED3001C9401;
-			remoteInfo = "kakeibo_ios";
+			remoteInfo = kakeibo_ios;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -141,8 +141,7 @@
 				8B73362F1DD6FED3001C9401 /* Info.plist */,
 				8B7336271DD6FED3001C9401 /* kakeibo_ios.xcdatamodeld */,
 			);
-			name = kakeibo_ios;
-			path = "kakeibo_ios";
+			path = kakeibo_ios;
 			sourceTree = "<group>";
 		};
 		8B7336371DD6FED3001C9401 /* kakeibo_iosTests */ = {
@@ -151,8 +150,7 @@
 				8B7336381DD6FED3001C9401 /* kakeibo_iosTests.swift */,
 				8B73363A1DD6FED3001C9401 /* Info.plist */,
 			);
-			name = kakeibo_iosTests;
-			path = "kakeibo_iosTests";
+			path = kakeibo_iosTests;
 			sourceTree = "<group>";
 		};
 		8B7336421DD6FED3001C9401 /* kakeibo_iosUITests */ = {
@@ -161,8 +159,7 @@
 				8B7336431DD6FED3001C9401 /* kakeibo_iosUITests.swift */,
 				8B7336451DD6FED3001C9401 /* Info.plist */,
 			);
-			name = kakeibo_iosUITests;
-			path = "kakeibo_iosUITests";
+			path = kakeibo_iosUITests;
 			sourceTree = "<group>";
 		};
 		8B7336651DD70928001C9401 /* ViewController */ = {
@@ -226,7 +223,7 @@
 			dependencies = (
 			);
 			name = kakeibo_ios;
-			productName = "kakeibo_ios";
+			productName = kakeibo_ios;
 			productReference = 8B73361D1DD6FED3001C9401 /* kakeibo_ios.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -244,7 +241,7 @@
 				8B7336361DD6FED3001C9401 /* PBXTargetDependency */,
 			);
 			name = kakeibo_iosTests;
-			productName = "kakeibo_iosTests";
+			productName = kakeibo_iosTests;
 			productReference = 8B7336341DD6FED3001C9401 /* kakeibo_iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -262,7 +259,7 @@
 				8B7336411DD6FED3001C9401 /* PBXTargetDependency */,
 			);
 			name = kakeibo_iosUITests;
-			productName = "kakeibo_iosUITests";
+			productName = kakeibo_iosUITests;
 			productReference = 8B73363F1DD6FED3001C9401 /* kakeibo_iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -535,12 +532,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "kakeibo_ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				INFOPLIST_FILE = kakeibo_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -553,12 +551,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "kakeibo_ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				INFOPLIST_FILE = kakeibo_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -568,9 +567,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6WFKUJRXCU;
-				INFOPLIST_FILE = "kakeibo_iosTests/Info.plist";
+				INFOPLIST_FILE = kakeibo_iosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.seino.kakeibo_iosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakeibo_ios.app/kakeibo_ios";
@@ -583,9 +582,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6WFKUJRXCU;
-				INFOPLIST_FILE = "kakeibo_iosTests/Info.plist";
+				INFOPLIST_FILE = kakeibo_iosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.seino.kakeibo_iosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakeibo_ios.app/kakeibo_ios";
@@ -597,12 +596,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6WFKUJRXCU;
-				INFOPLIST_FILE = "kakeibo_iosUITests/Info.plist";
+				INFOPLIST_FILE = kakeibo_iosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.seino.kakeibo_iosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "kakeibo_ios";
+				TEST_TARGET_NAME = kakeibo_ios;
 			};
 			name = Debug;
 		};
@@ -611,12 +610,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6WFKUJRXCU;
-				INFOPLIST_FILE = "kakeibo_iosUITests/Info.plist";
+				INFOPLIST_FILE = kakeibo_iosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.seino.kakeibo_iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.seino.kakeibo_iosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "kakeibo_ios";
+				TEST_TARGET_NAME = kakeibo_ios;
 			};
 			name = Release;
 		};
